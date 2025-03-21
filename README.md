@@ -34,7 +34,7 @@
 ## 🖥 Preview
 
 ![Syntax Highlighting Demo](assets/theme-icon.png)  
-_Actual theme preview (replace with your screenshots)_
+_Actual theme preview _
 
 ---
 
