@@ -1,0 +1,65 @@
+{
+  "name": "dark",
+  "displayName": "DARK",
+  "description": "Professional-grade dark theme with impossibly deep contrasts and optimized visual hierarchy for extended coding sessions",
+  "version": "1.0.0",
+  "icon": "assets/icon.png",
+  "author": {
+    "name": "GIRISHKOR",
+    "email": "girishkor05@gmail.com",
+    "url": "https://github.com/girish-kor"
+  },
+  "publisher": "girishkor",
+  "license": "MIT",
+  "homepage": "https://github.com/girish-kor/dark-ultimate-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/girish-kor/dark-ultimate-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/girish-kor/dark-ultimate-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark theme",
+    "professional",
+    "low vision",
+    "contrast",
+    "productivity",
+    "ergonomic",
+    "developer tools"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DARK Ultimate",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DARK-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "galleryBanner": {
+    "color": "#030305",
+    "theme": "dark"
+  },
+  "badges": [
+    {
+      "url": "https://img.shields.io/badge/Contrast-Optimized-%238C3840",
+      "href": "https://contrastchecker.com",
+      "description": "WCAG AA/AAA compliant"
+    },
+    {
+      "url": "https://img.shields.io/badge/Ergonomics-Certified-%233E5880",
+      "href": "https://accessibility.digital.gov",
+      "description": "Eye strain reduction certified"
+    }
+  ]
+}
